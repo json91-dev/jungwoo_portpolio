@@ -1,6 +1,10 @@
+import Layout from "../layout/Layout"
+
 const Home = () => {
   return (
-    <div>Hello, Next!</div>
+    <Layout>
+
+    </Layout>
   )
 }
 
