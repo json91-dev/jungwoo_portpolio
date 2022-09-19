@@ -15,7 +15,6 @@ const Home = () => {
           <Hero/>
         </div>
       </section>
-
     </Layout>
   )
 }
