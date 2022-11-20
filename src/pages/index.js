@@ -1,10 +1,8 @@
 import Head from "next/head"
-import Hero from "../components/home/Hero"
 import React from "react"
-import Header from "../components/Header"
-import Introduce from "../components/Introduce"
-import Skiils from "../components/Skiils"
-import Profile from "../components/Profile"
+import Introduce from "../components/Introduce/Introduce"
+import Skiils from "../components/Skills/Skiils"
+import Profile from "../components/Profile/Profile"
 
 const Home = () => {
   return (
