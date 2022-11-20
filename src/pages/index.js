@@ -8,19 +8,19 @@ import Profile from "../components/Profile"
 
 const Home = () => {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center border-4 border-red-900">
+    <div className="
+        w-full h-full flex flex-col items-center justify-center pl-10 pr-10
+    "
+    >
       <Head>
-        <title>빡코딩 포트폴리오</title>
-        <meta name="description" content="오늘도 빡코딩!"/>
+        <title>이정우의 포트폴리오</title>
       </Head>
 
-      <Header />
-
-      <>
+      <div className="max-w-5xl">
         <Profile/>
         <Introduce/>
         <Skiils/>
-      </>
+      </div>
     </div>
   )
 }
