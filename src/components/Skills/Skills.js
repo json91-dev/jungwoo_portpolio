@@ -3,14 +3,14 @@ import SkillsItem from "./SkillsItem"
 
 const Skills = () => {
   return (
-    <div className="mt-[5%] w-full">
+    <div className="mt-[5%] w-full text-2xl">
        {/*Frontend*/}
       <div className="md:w-[20%] ">
         <p className="text-blue-500 text-3xl md:text-2xl lg:text-3xl">Skills</p>
       </div>
 
       {/*Backend*/}
-      <div className='w-full pl-5 pr-5  mt-[2rem]'>
+      <div className='w-full pl-5 pr-5 mt-[2rem]'>
         <div className='flex flex-row mb-10'>
           <div className='w-[20%]'>
             <p className="text-2xl">FrontEnd</p>
@@ -60,7 +60,6 @@ const Skills = () => {
             </div>
           </div>
         </div>
-
       </div>
 
       {/*Database*/}
@@ -73,17 +72,14 @@ const Skills = () => {
             <div className='w-[33%] pl-10'>
               <SkillsItem name='MongoDB' level='3'/>
               <SkillsItem name='SQLite' level='1'/>
-
             </div>
 
             <div className='w-[33%] pl-10'>
               <SkillsItem name='MySQL' level='2'/>
-
             </div>
 
             <div className='w-[33%] pl-10'>
               <SkillsItem name='Firebase' level='2'/>
-
             </div>
           </div>
         </div>

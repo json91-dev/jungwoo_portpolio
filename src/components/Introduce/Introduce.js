@@ -5,6 +5,7 @@ const Introduce = () => {
     <div className="
           mt-[5rem] flex flex-col w-full
           md:flex-row
+          text-2xl
         "
     >
       <div class="md:w-[20%]">
